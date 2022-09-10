@@ -8,10 +8,10 @@
 </head>
 <body>
 <h1>Hello I'm welcome.jsp </h1>
-<%
-    String variable = (String) req.getAttribute("variable");
-    out.println(variable);
-%>
+    <p> Varibale is :  ${variable}</p>
+    <p> Value of array[0] from the servlet is ${personnes[0]} </p>
+     <p> Value of array[1] from the servlet is ${personnes[1]} </p>
+     <p> Value of array[2] from the servlet is ${personnes[2]} </p>
 <p>
     0 To 10    
 </p>
